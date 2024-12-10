@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(30, 38%, 92%); 
+}
+#main{
+    width: 665px;
+    height: 500px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    
+}
+.div{
+    width: 50%;
+}
+img{
+    height: 500px;
+    border-radius: 20px 0 0 20px;
+}
+#div2{
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding: 30px;
+    text-align: left;
+}
+#p1 , #p3{
+    font-family: 'Montserrat', 'Lucida Sans';
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    margin: 13px 0;
+}
+#p2{
+    font-family: 'Fraunces', 'Lucida Sans';
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 18px 0;
+}
+#p4 {
+    font-family: 'Climent crisis';
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+}
+span{
+    color: rgb(120, 120, 120); 
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+.btn{
+    margin-left: 20px;
+    width: 240px;
+    height: 50px;
+    color: white;
+    font-family:'Montserrat', 'Lucida Sans' ;
+    font-size: 20px;
+    background-color: hsl(158, 36%, 37%) ;
+    border-radius: 10px;
+    border: hsl(158, 36%, 37%) solid;
+
+}
+
+@media (max-width :600px){
+    #main{
+        display: block;
+        align-items: center;
+    }
+    img{
+        border-radius: 20px 20px 0 0;
+    }
+    #div2{
+        border-radius: 0 0 20px 20px;
+    }
+}
