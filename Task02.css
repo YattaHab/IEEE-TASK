@@ -51,6 +51,7 @@ span{
     font-weight: normal;
 }
 .btn{
+    cursor: pointer;
     margin-left: 20px;
     width: 240px;
     height: 50px;
